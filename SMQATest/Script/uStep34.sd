@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step34;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(285, 10);  
+end;

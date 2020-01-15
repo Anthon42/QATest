@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+  
+procedure Step22;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.Text := '123123123';
+end;

@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step29;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress.Position := constTestProgressBar;  
+end;

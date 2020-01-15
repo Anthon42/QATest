@@ -1,0 +1,4 @@
+﻿procedure Step30;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestDown.Click();  
+end;

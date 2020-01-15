@@ -1,0 +1,4 @@
+﻿procedure ClickChBox ;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit.Click();      
+end;

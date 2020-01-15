@@ -1,0 +1,4 @@
+﻿procedure ClickFormEdit;
+begin
+  Aliases.Application.FMain.dxRibbon.ClickItem('dxRibbonTab1|[0]|Форма редакторов');
+end;

@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step38;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.Click(144, 848);
+end;

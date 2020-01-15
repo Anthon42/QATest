@@ -1,0 +1,12 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step37;
+var
+  lItemIndex;
+begin
+  lItemIndex := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.EditValue;   
+  if NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel9.Caption <> lItemIndex then
+    Log.Error('Значения не совпадают');
+    
+end;

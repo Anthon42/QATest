@@ -1,0 +1,4 @@
+﻿procedure Step17;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton4.Click();        
+end;

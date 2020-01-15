@@ -1,0 +1,7 @@
+﻿uses ApplicationUtils;
+
+function Step4;
+begin
+//  Aliases.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.Click();
+  ApplicationUtils.MouseLClickOnObject(Aliases.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit);
+end;

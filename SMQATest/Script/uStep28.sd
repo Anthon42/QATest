@@ -1,0 +1,8 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step28;
+begin
+  if NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel7.Caption <> constTestDate then  
+    Log.Error('Даты не совпали');
+end;

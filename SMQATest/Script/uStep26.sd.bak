@@ -1,0 +1,4 @@
+﻿procedure Step26;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit.Date := StrToDateTime('16.01.2021');
+end;

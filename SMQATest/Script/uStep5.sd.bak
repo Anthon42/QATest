@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step5;
+begin
+  Aliases.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.Text := constMultiLineText;
+end;

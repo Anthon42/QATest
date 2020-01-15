@@ -1,0 +1,4 @@
+﻿function Step4;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.Click();
+end;

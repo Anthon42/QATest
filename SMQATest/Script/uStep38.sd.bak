@@ -1,0 +1,8 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.Click();
+end;
+

@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step8;
+begin
+  Aliases.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.Text := constTestLetter;
+end;

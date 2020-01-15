@@ -1,0 +1,10 @@
+﻿uses
+  ApplicationUtils;
+procedure Step25;
+var
+  SpinEditValue;
+begin
+  SpinEditValue :=  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.Text;
+  if NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel6.Caption <> SpinEditValue then
+    Log.Error('Параметры не верны');
+end;

@@ -1,0 +1,4 @@
+﻿procedure ApplicationMaximize;
+begin
+  Aliases.Application.FMain.Maximize;         
+end;

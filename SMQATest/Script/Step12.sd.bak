@@ -1,0 +1,21 @@
+﻿procedure compare;
+var
+  Caption;
+  BoolValue;
+begin
+  Caption := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel3.Caption;
+  
+  BoolValue := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit.Checked; 
+  
+  if BoolValue then
+  begin
+    if Caption <> 'True' then
+    Log.Error('Значения не совпадают');  
+  end
+  else
+  begin
+    if Caption <> 'False' then
+    Log.Error('Значения не совпадают');    
+  end;
+     
+end;

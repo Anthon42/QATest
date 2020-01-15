@@ -1,0 +1,5 @@
+﻿uses ApplicationUtils;
+procedure Step17;
+begin
+  ApplicationUtils.ButonClickOnObject(NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton4);        
+end;

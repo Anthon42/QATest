@@ -1,0 +1,4 @@
+﻿procedure Step1;
+begin
+  TestedApps.Items[0].run;
+end;

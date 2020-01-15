@@ -1,0 +1,4 @@
+﻿procedure EnterTextCurrencyEdit ;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.Text := '999999';      
+end;

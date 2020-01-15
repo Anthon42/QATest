@@ -1,0 +1,4 @@
+﻿procedure Step13;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit.Click();      
+end;

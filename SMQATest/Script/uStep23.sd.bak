@@ -1,0 +1,4 @@
+﻿procedure Test1;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.Click(281, 5);
+end;

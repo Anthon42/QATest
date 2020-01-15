@@ -1,0 +1,14 @@
+﻿uses
+  ApplicationUtils;
+  
+procedure step18;
+var
+  Caption;
+begin
+  Caption := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel4.Caption;
+   
+  if Caption <> constTestNumbers then
+  begin
+    Log.Error('Данные не сходятся');
+  end;  
+end;

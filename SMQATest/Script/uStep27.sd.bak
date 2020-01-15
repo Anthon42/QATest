@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils; 
+   
+procedure Step27;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton7  
+end;

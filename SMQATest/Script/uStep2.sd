@@ -1,0 +1,4 @@
+﻿procedure Step2;
+begin
+  NameMapping.Sys.Application.FMain.Maximize;         
+end;

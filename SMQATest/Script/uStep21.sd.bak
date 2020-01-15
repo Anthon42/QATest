@@ -1,0 +1,5 @@
+﻿procedure Step21;
+begin
+  if NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel5.Caption <> IntToStr(constCheckBoxIndex) then
+    Log.Error('Параметры не верны');
+end;

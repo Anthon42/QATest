@@ -1,0 +1,6 @@
+﻿uses
+  uStep12;
+procedure Step15;
+begin
+  Compare;  
+end;

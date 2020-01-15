@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Case">
+			<folder name="#1">
+				<child name="uStep1" key="{4203A6AE-F4AD-4622-9710-EE94FD1708EB}" path="uStep1.sd" />
+				<child name="uStep2" key="{50441185-E2CC-45C1-9A85-C2B661C7C621}" path="uStep2.sd" />
+				<child name="uStep3" key="{62FE7747-4C06-4282-B678-629A66F0047E}" path="uStep3.sd" />
+				<child name="uStep4" key="{138CE497-4212-46BB-AFDA-BA0E7749B569}" path="uStep4.sd" />
+				<child name="uStep5" key="{51E201E8-88C6-46B2-A828-9AFD20D0DA97}" path="uStep5.sd" />
+				<child name="uStep6" key="{E6082F87-CFA7-4CC5-8CE2-82E93FB043D5}" path="uStep6.sd" />
+				<child name="uStep7" key="{BB81E963-203A-4435-84BD-1D2186B4CD08}" path="uStep7.sd" />
+				<child name="uStep8" key="{F14A89F9-0D56-46F1-9C9C-B85A54A9D449}" path="uStep8.sd" />
+				<child name="uStep9" key="{7B7779EC-D0E1-448B-B722-7AA8E9D05CE2}" path="uStep9.sd" />
+				<child name="uStep10" key="{41CFD7A0-8B03-4742-B9C3-A1D6A687933B}" path="uStep10.sd" />
+				<child name="uStep11" key="{D4DF3BC8-BFB3-40A8-B705-D9C90BDC6CC4}" path="uStep11.sd" />
+				<child name="uStep12" key="{C2094382-F9EA-489D-B1BC-9CD128743096}" path="uStep12.sd" />
+				<child name="uStep13" key="{B35C9343-DDBE-4E2A-ACAA-5310F67D4176}" path="uStep13.sd" />
+				<child name="uStep14" key="{CE29AE33-2D51-4952-86B1-EA21D6EDDEB8}" path="uStep14.sd" />
+				<child name="uStep15" key="{8971A729-DD0A-46B0-86FC-0343A79C1A85}" path="uStep15.sd" />
+				<child name="uStep16" key="{D3D3667E-5BB2-4B85-8E0A-E765129CB99C}" path="uStep16.sd" />
+				<child name="uStep17" key="{D519C0E7-A560-4EBD-847F-4138BFD3BD41}" path="uStep17.sd" />
+				<child name="uStep18" key="{B42F58FA-553D-459B-B6FB-3D4EBA9358F8}" path="uStep18.sd" />
+				<child name="uStep19" key="{90664098-B254-4556-983D-B3E59B174606}" path="uStep19.sd" />
+				<child name="uStep20" key="{7ED6A49C-AD42-4549-9671-5799DEE91847}" path="uStep20.sd" />
+				<child name="uStep21" key="{4CB74845-1927-4182-9F31-2B68D202908A}" path="uStep21.sd" />
+				<child name="uStep22" key="{8A686F96-76AB-4040-AE45-F00C0C7F8B65}" path="uStep22.sd" />
+				<child name="uStep23" key="{C68602C3-93FA-4DB9-82BE-BB0AD45EB0C1}" path="uStep23.sd" />
+				<child name="uStep24" key="{5FBF0A11-9B52-4B7D-A6B0-C2BB89EFFF1C}" path="uStep24.sd" />
+				<child name="uStep25" key="{718FAE4B-875F-4D5C-82FB-196053FDD254}" path="uStep25.sd" />
+				<child name="uStep26" key="{8306CE47-CC83-4689-B8C0-BE1B19F18897}" path="uStep26.sd" />
+				<child name="uStep27" key="{1ED766F3-A886-4565-AA96-1F7706AC6D33}" path="uStep27.sd" />
+				<child name="uStep28" key="{6D91A680-D316-45E6-9306-A7D93FDC6663}" path="uStep28.sd" />
+				<child name="uStep29" key="{28BD92D2-5B2A-4196-91D4-01A8E8BD87BB}" path="uStep29.sd" />
+				<child name="uStep30" key="{1BF684B1-8C4F-4DF9-8962-84C806A6B2CD}" path="uStep30.sd" />
+				<child name="uStep31" key="{FF66B85E-F016-46AD-B9EF-8ECBD40EBABE}" path="uStep31.sd" />
+				<child name="uStep32" key="{41FFC3C9-890B-4A04-B7DF-0D6DBE83000A}" path="uStep32.sd" />
+				<child name="uStep33" key="{9BEBFB87-84D7-4463-8BBD-47FE96BB3121}" path="uStep33.sd" />
+				<child name="uStep34" key="{7D207493-A7B3-4B6D-A95D-04ECA2B8939B}" path="uStep34.sd" />
+				<child name="uStep35" key="{14563CBA-7CEE-4D04-8A68-6198DF95FE1D}" path="uStep35.sd" />
+				<child name="uStep36" key="{F4AD7C59-79AC-4F15-A8FA-7D4254CA76E4}" path="uStep36.sd" />
+				<child name="uStep37" key="{367BCD47-2163-46C0-A8CD-BA152650C070}" path="uStep37.sd" />
+				<child name="uStep38" key="{9DC2847B-4B26-4FE5-9969-76351203C385}" path="uStep38.sd" />
+			</folder>
+			<folder name="#2" />
+			<folder name="#3" />
+		</folder>
+		<folder name="Utils">
+			<child name="ApplicationUtils" key="{906C29DC-D6B2-4F9C-A55F-10EC72EA8C49}" path="ApplicationUtils.sd" />
+		</folder>
+	</children>
+</Root>

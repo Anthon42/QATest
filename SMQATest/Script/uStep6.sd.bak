@@ -1,0 +1,4 @@
+﻿procedure Step6;
+begin
+  Aliases.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton.ClickButton;
+end;

@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+  
+procedure Step14;
+begin
+  MouseLClickOnObject(NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton3)   
+end;

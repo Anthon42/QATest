@@ -1,0 +1,5 @@
+﻿procedure Step;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(266, 14);
+  NameMapping.Sys.Application.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid.Click(51, 31);
+end;

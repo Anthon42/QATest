@@ -1,0 +1,12 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step32;
+var
+  ProgressBarPosition;
+begin
+  ProgressBarPosition := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress.Position;
+  
+  if NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel8.Caption <> ProgressBarValue then
+    Log.Error('Не совпало'); 
+end;

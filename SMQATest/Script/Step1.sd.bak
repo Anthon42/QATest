@@ -1,0 +1,4 @@
+﻿procedure RunApplication;
+begin
+  TestedApps.Items[0].run;
+end;

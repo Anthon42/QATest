@@ -1,0 +1,14 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step7;
+var
+  Text;
+begin
+  Text := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel.Caption;
+  
+  if Text <> constMultiLineText then
+  begin
+    Log.Error('Строки не эквиваленты');
+  end;
+end;

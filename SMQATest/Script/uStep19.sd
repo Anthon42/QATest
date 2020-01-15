@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+procedure Step19;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.Click();
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.States[constCheckBoxIndex - 1 ] := cbChecked;
+end;

@@ -1,0 +1,7 @@
+﻿uses
+  ApplicationUtils;
+
+procedure Step31;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton8.Click();  
+end;

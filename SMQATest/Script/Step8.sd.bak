@@ -1,0 +1,4 @@
+﻿procedure EnterTextEdit;
+begin
+  Aliases.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.Text := '1112223333';
+end;
