@@ -1,0 +1,4 @@
+﻿procedure Step16;
+begin
+  NameMapping.Sys.Application.TcxPivotGridCustomizationForm.TcxGroupBox.TcxComboBox.ClickItem('Row Area')
+end;

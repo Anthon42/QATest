@@ -1,0 +1,4 @@
+﻿procedure Step17;
+begin
+  NameMapping.Sys.Application.TcxPivotGridCustomizationForm.TcxFieldListListBox.Click(2,2);
+end;

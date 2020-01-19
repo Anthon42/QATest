@@ -52,7 +52,25 @@
 				<child name="uTreeListStep7" key="{5E4DEA03-25E2-4274-BD40-0689A9319E9D}" path="uTreeListStep7.sd" />
 				<child name="uTreeListStep8" key="{B7AD6E91-7C6A-4180-9A67-A4D60386BFF5}" path="uTreeListStep8.sd" />
 			</folder>
-			<folder name="#3" />
+			<folder name="#3">
+				<child name="uPivodGridStep1" key="{5EB16714-1BF8-4C3F-9338-AAF953AD4425}" path="uPivodGridStep1.sd" />
+				<child name="uPivodGridStep2" key="{541B61AD-1F1B-4918-BE47-F36B972F51CF}" path="uPivodGridStep2.sd" />
+				<child name="uPivodGridStep3" key="{C6A6C536-EE47-48C7-94A0-CAC5655ACCF2}" path="uPivodGridStep3.sd" />
+				<child name="uPivodGridStep4" key="{463B7B73-3859-4627-A728-374DA8B36786}" path="uPivodGridStep4.sd" />
+				<child name="uPivodGridStep5" key="{02FCC0A8-09A0-4F56-9E9F-86F195372D82}" path="uPivodGridStep5.sd" />
+				<child name="uPivodGridStep6" key="{EC1132B9-E542-41B1-8BA5-BF2DC5BEB521}" path="uPivodGridStep6.sd" />
+				<child name="uPivodGridStep7" key="{FBA8F842-8943-457E-B28F-AED62BAFB70A}" path="uPivodGridStep7.sd" />
+				<child name="uPivodGridStep8" key="{3101F5FD-0EA6-4A13-ABB9-376332A8BCCC}" path="uPivodGridStep8.sd" />
+				<child name="uPivodGridStep9" key="{0AA03114-6962-4F2E-AD5B-DF61D9834F33}" path="uPivodGridStep9.sd" />
+				<child name="uPivodGridStep10" key="{BB9F8399-DE80-4E2F-95AE-1AFD306395EE}" path="uPivodGridStep10.sd" />
+				<child name="uPivodGridStep11" key="{0249011B-3727-4E29-8CD8-2C47BE2C76D3}" path="uPivodGridStep11.sd" />
+				<child name="uPivodGridStep12" key="{D8187005-A0A7-4C15-9AA8-8EDABC15AF86}" path="uPivodGridStep12.sd" />
+				<child name="uPivodGridStep13" key="{D49875C7-683B-468F-A14B-9C0186D0A32D}" path="uPivodGridStep13.sd" />
+				<child name="uPivodGridStep14" key="{7F80C6AB-2939-40C1-956B-C68DB7F382CD}" path="uPivodGridStep14.sd" />
+				<child name="uPivodGridStep15" key="{B22ED676-771B-44F5-9E79-9ECE53C8F486}" path="uPivodGridStep15.sd" />
+				<child name="uPivodGridStep16" key="{2B799883-3BD7-4A2C-AA67-7D20D955204B}" path="uPivodGridStep16.sd" />
+				<child name="uPivodGridStep17" key="{40777FED-0E8C-4F87-8A02-2B03BAC09201}" path="uPivodGridStep17.sd" />
+			</folder>
 		</folder>
 		<folder name="Utils">
 			<child name="uApplicationUtils" key="{906C29DC-D6B2-4F9C-A55F-10EC72EA8C49}" path="uApplicationUtils.sd" />

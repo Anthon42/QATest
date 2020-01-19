@@ -1,0 +1,7 @@
+﻿uses
+  uApplicationUtils;
+  
+procedure Step2;
+begin
+  MaximizeAplication;  
+end;

@@ -1,0 +1,4 @@
+﻿procedure Test5;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FPivotGrid.pgTest.PopupMenu.Click('Show Field List');
+end;

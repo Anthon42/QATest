@@ -1,0 +1,5 @@
+﻿procedure Step6;
+begin
+   NameMapping.Sys.Application.FMain.MDIClient.FPivotGrid.pgTest.Drag(509, 19, 0, 50);
+   NameMapping.Sys.Application.FMain.MDIClient.FPivotGrid.pgTest.Drag(619, 15, 0, 50);
+end;

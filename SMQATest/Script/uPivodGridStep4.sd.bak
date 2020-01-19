@@ -1,0 +1,4 @@
+﻿procedure Test4;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FPivotGrid.pgTest.ClickR(10,10);
+end;

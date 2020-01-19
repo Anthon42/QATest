@@ -1,0 +1,4 @@
+﻿procedure Step17;
+begin
+  NameMapping.Sys.Application.TcxPivotGridCustomizationForm.TcxGroupBox.TcxButton.Click();
+end;

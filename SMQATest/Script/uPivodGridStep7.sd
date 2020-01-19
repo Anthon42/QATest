@@ -1,0 +1,4 @@
+﻿procedure Step7;
+begin
+  NameMapping.Sys.Application.TcxPivotGridCustomizationForm.Close();
+end;

@@ -1,0 +1,32 @@
+﻿procedure Step12;
+begin
+  NameMapping.Sys.Application.TcxPivotGridCustomizationForm.TcxFieldListListBox.Click(1,1)
+end;
+
+procedure Test1;
+begin
+  OCR.Recognize(Aliases.Application.TcxPivotGridCustomizationForm.TcxFieldListListBox).BlockByText('Shopid').Click;
+end;
+
+procedure Test2;
+  var tcxFieldListListBox : OleVariant;
+begin
+  tcxFieldListListBox := Aliases.Application.TcxPivotGridCustomizationForm.TcxFieldListListBox;
+  OCR.Recognize(tcxFieldListListBox).BlockByText('avg').Click;
+  tcxFieldListListBox.Click(62, 25);
+  OCR.Recognize(tcxFieldListListBox).BlockByText('avg').Click;
+end;
+
+procedure Test3;
+  var tcxFieldListListBox : OleVariant;
+begin
+  Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass.Click(281, 13);
+  tcxFieldListListBox := Aliases.Application.TcxPivotGridCustomizationForm.TcxFieldListListBox;
+  tcxFieldListListBox.Drag(26, 11, -1, -5);
+  OCR.Recognize(tcxFieldListListBox).BlockByText('Shopid').Click;
+  tcxFieldListListBox.Click(139, 30);
+  tcxFieldListListBox.Click(139, 29);
+  tcxFieldListListBox.Click(153, 28);
+  tcxFieldListListBox.Click(153, 28);
+  tcxFieldListListBox.Drag(74, 29, 0, 26);
+end;

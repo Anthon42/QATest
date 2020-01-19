@@ -1,5 +1,6 @@
 ﻿uses
-  uApplicationUtils;
+  uConstTestedApplication;
+  
 procedure Step25;
 var
   SpinEditValue;

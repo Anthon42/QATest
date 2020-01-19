@@ -1,7 +1,4 @@
-﻿uses
-  uApplicationUtils;
-   
-procedure Step27;
+﻿procedure Step27;
 begin
   NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton7.Click();  
 end;

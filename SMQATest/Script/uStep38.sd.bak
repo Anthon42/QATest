@@ -1,7 +1,4 @@
-﻿uses
-  uApplicationUtils;
-
-procedure Step38;
+﻿procedure Step38;
 begin
-  NameMapping.Sys.Application.FMain.MDIClient.Click(144, 848);
+  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.Close();
 end;

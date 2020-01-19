@@ -1,0 +1,4 @@
+﻿procedure Step3;
+begin
+  NameMapping.Sys.Application.FMain.dxRibbon.ClickItem('dxRibbonTab1|[0]|Форма с PivotGrid');
+end;

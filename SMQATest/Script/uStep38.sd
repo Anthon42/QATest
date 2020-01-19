@@ -1,4 +1,4 @@
 ﻿procedure Step38;
 begin
-  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.Close();
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.Close();
 end;
