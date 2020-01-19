@@ -1,0 +1,8 @@
+﻿procedure Step3;
+begin
+  NameMapping.Sys.Application.FMain.dxRibbon.ClickItem('dxRibbonTab1|[2]|Форма c TreeList');
+end;
+
+procedure Test1;
+begin
+end;

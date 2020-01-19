@@ -1,10 +1,7 @@
-﻿procedure Step19;
-var
-  ItemIndex;
+﻿uses
+  ApplicationUtils;
+procedure Step19;
 begin
-  ItemIndex := constCheckBoxIndex; 
-  Dec(ItemIndex);
-  
   NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.Click();
-  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.States[ItemIndex] := cbChecked;
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.States[constCheckBoxIndex - 1 ] := cbChecked;
 end;

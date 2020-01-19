@@ -1,7 +1,4 @@
-﻿uses
-  ApplicationUtils;
-
-procedure Step37;
+﻿procedure Step37;
 var
   lItemIndex;
 begin

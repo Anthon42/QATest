@@ -1,0 +1,20 @@
+﻿uses
+  constTestedApplication;
+  
+function GetApplication;
+var
+  Application;
+begin
+  Application := Sys.Process('TestEnvironment(TD32)');
+  result := Application; 
+end;
+
+procedure RunApplication;
+begin
+  TestedApps.Items[constTestedApplicationIndex].run;
+end;
+
+procedure MaximizeAplication;
+begin
+  NameMapping.Sys.Application.FMain.Maximize;     
+end;

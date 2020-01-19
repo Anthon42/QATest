@@ -1,10 +1,14 @@
-﻿procedure Step7;
+﻿uses
+  ApplicationUtils;
+
+procedure Step7;
 var
   Text;
 begin
   Text := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel.Caption;
-  if Text <> 'Первая стока ' + #13 + #10 + 'Вторая строка' then
+  
+  if Text <> constMultiLineText then
   begin
-  Log.Error('Строки не эквиваленты');
+    Log.Error('Строки не эквиваленты');
   end;
 end;

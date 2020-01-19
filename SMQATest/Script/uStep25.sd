@@ -1,5 +1,5 @@
 ﻿uses
-  ApplicationUtils;
+  uApplicationUtils;
 procedure Step25;
 var
   SpinEditValue;

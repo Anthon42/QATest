@@ -7,6 +7,6 @@ var
 begin
   ProgressBarPosition := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress.Position;
   
-  if NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel8.Caption <> ProgressBarValue then
+  if NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel8.Caption <> ProgressBarPosition then
     Log.Error('Не совпало'); 
 end;

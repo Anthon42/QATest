@@ -1,9 +1,12 @@
-﻿procedure Step10;
+﻿uses
+  ApplicationUtils;
+
+procedure Step10;
 var
   Text;
 begin
   Text := NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pLabelsPanel.TcxLabel2.Caption;
-  if Text <> '1112223333' then
+  if Text <> constTestLetter then
    begin
    Log.Error('Строки не эквиваленты');
    end;

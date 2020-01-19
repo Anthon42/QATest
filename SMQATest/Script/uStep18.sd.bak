@@ -1,4 +1,7 @@
-﻿procedure step18;
+﻿uses
+  ApplicationUtils;
+  
+procedure step18;
 var
   Caption;
 begin

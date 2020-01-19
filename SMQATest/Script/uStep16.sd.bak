@@ -1,4 +1,6 @@
-﻿procedure Step16;
+﻿uses
+  ApplicationUtils;
+procedure Step16;
 begin
-  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.Text := '999999';      
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.Text := constTestNumbers;      
 end;

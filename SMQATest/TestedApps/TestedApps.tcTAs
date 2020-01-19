@@ -10,7 +10,7 @@
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="TestEnvironment(TD32).exe" filePath="C:\QATest\" parameters="" workFolder="" />
+					<param name="Simple" fileName="TestEnvironment(TD32).exe" filePath="D:\Репоизитории\GIT\QATestSM\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

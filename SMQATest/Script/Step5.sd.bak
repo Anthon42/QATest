@@ -1,4 +1,0 @@
-﻿procedure AddText;
-begin
-    Aliases.Application.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.Text := 'Первая стока ' + #13 + #10 + 'Вторая строка';
-end;

@@ -1,0 +1,6 @@
+﻿procedure Step7;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.tlTest.wChildView[1].wChildView[2].ClickCell(0, 'name');
+  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.tlTest.Window('TcxMaskEdit', '', 1).EditingText := '';
+end;
+

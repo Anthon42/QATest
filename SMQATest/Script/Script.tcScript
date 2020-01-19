@@ -42,11 +42,21 @@
 				<child name="uStep37" key="{367BCD47-2163-46C0-A8CD-BA152650C070}" path="uStep37.sd" />
 				<child name="uStep38" key="{9DC2847B-4B26-4FE5-9969-76351203C385}" path="uStep38.sd" />
 			</folder>
-			<folder name="#2" />
+			<folder name="#2">
+				<child name="uTreeListStep1" key="{8312EB6B-AAFF-4C5A-8664-CCC29C7027B5}" path="uTreeListStep1.sd" />
+				<child name="uTreeListStep2" key="{0548FBA2-4AD2-4FA8-949B-77188BFDE15E}" path="uTreeListStep2.sd" />
+				<child name="uTreeListStep3" key="{9D518452-0C91-4D51-9EEA-2A6BE0108FA8}" path="uTreeListStep3.sd" />
+				<child name="uTreeListStep4" key="{46A28A91-8C92-46D7-9519-B430416EE77F}" path="uTreeListStep4.sd" />
+				<child name="uTreeListStep5" key="{CD011466-2742-4775-96C1-A40602C7A607}" path="uTreeListStep5.sd" />
+				<child name="uTreeListStep6" key="{40DECA8D-9A87-4288-B4C4-68FD61157FA9}" path="uTreeListStep6.sd" />
+				<child name="uTreeListStep7" key="{5E4DEA03-25E2-4274-BD40-0689A9319E9D}" path="uTreeListStep7.sd" />
+				<child name="uTreeListStep8" key="{B7AD6E91-7C6A-4180-9A67-A4D60386BFF5}" path="uTreeListStep8.sd" />
+			</folder>
 			<folder name="#3" />
 		</folder>
 		<folder name="Utils">
-			<child name="ApplicationUtils" key="{906C29DC-D6B2-4F9C-A55F-10EC72EA8C49}" path="ApplicationUtils.sd" />
+			<child name="uApplicationUtils" key="{906C29DC-D6B2-4F9C-A55F-10EC72EA8C49}" path="uApplicationUtils.sd" />
+			<child name="uConstTestedApplication" key="{B3212A31-62F9-4D9F-82C4-00AD706CFF08}" path="uConstTestedApplication.sd" />
 		</folder>
 	</children>
 </Root>

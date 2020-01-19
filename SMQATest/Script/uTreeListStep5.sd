@@ -1,0 +1,4 @@
+﻿procedure Step5;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.tlTest.Collapse(1);
+end;

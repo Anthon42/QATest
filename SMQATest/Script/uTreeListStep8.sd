@@ -1,0 +1,4 @@
+﻿procedure Step8;
+begin
+   NameMapping.Sys.Application.FMain.MDIClient.FTreeList.Close();
+end;

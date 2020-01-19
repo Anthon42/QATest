@@ -1,0 +1,8 @@
+﻿procedure Step6;
+var
+  ItemIndex;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.tlTest.wChildView[3].wChildView[2].ClickCell(1, 'name');
+  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.tlTest.Window('TcxMaskEdit', '', 1).EditingText := 'New Caption';
+end;
+

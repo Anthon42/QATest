@@ -1,15 +1,10 @@
 ﻿const
+  // Индекс запускаемого приложения
+  constTestedApplicationIndex = 0;
+  
   constTestNumbers = '89663713826';
   constTestLetter = 'Test text';
   constMultiLineText = 'Первая стока ' + #13 + #10 + 'Вторая строка';
   constCheckBoxIndex = 3;
   constTestDate = '16.01.2020';
   constTestProgressBar = 99;
-  
-function GetApplication;
-var
-  Application;
-begin
-  Application := Sys.Process('TestEnvironment(TD32)');
-  result := Application; 
-end;

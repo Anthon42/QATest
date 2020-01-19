@@ -3,5 +3,5 @@
    
 procedure Step27;
 begin
-  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton7  
+  NameMapping.Sys.Application.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton7.Click();  
 end;

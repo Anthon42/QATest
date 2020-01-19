@@ -1,6 +1,6 @@
 ﻿uses
   ApplicationUtils;
-procedure Step;
+procedure Step25;
 var
   SpinEditValue;
 begin

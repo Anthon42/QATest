@@ -1,0 +1,4 @@
+﻿procedure Step4;
+begin
+  NameMapping.Sys.Application.FMain.MDIClient.FTreeList.tlTest.wChildView[1].Collapse(2);
+end;
